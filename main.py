@@ -31,14 +31,3 @@ def page_by_name(candidate_name):
     return render_template("search.html", candidates=candidates, candidates_count=len(candidates))
 
 app.run()
-
-
-
-
-
-
-
-
-
-
-
